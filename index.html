@@ -1,0 +1,639 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body>
+<img src="imagenes/carros.png" width="442" height="249" alt="carros"><img src="imagenes/nissan.png" width="530" height="296" alt="audi"><img src="imagenes/nissan.png" width="530" height="296" alt="nissan"><img src="imagenes/nissan.png" width="530" height="296" alt="nissan"><img src="imagenes/nissan.png" width="530" height="296" alt="nissan">
+
+<style>
+   		h2
+		{
+			background-color:#cyan;
+		}
+		div
+		{
+			background-color:#0CC;
+		}
+	</style>
+<div data-role="page" id="page">
+	<div data-role="header">
+    <center>
+		<marquee direction="up"><h1 style="color:#CF9;">ANGEL DE PUEBLA</h1></marquee>
+        <img src="imagenes/muñecos.jpg" width="60" height="60" alt="german"> 
+      </center>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#page2" data-transition="flip">AUDI</a></li>
+			<img src="imagenes/logoA.jpg" width="1000" height="350" alt="logoA">
+            <li><a href="#page3" data-transition="slidedown">NISSAN</a></li>
+            <img src="imagenes/logoN.jpg" width="1000" height="350" alt="logoN">
+			<li><a href="#page4" data-transition="slide">CHEVROLET</a><img src="imagenes/logoC.jpg" width="1576" height="807" alt="logoC">
+            <li><a href="#page5" data-transition="fade">FORD</a></li>
+            <img src="imagenes/logoF.jpg" width="1000" height="350" alt="logoF">
+            <li><a href="#page6" data-transition="pop">DODGE</a><img src="imagenes/logoD.png" width="2000" height="286" alt="logoD">
+	<div data-role="content">
+    <body>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4 style="color:#FF0;">CONTACTANOS EN NUESTRA PAGINA OFICIAL</h4>
+	<img src="imagenes/facebook.jpg" width="80" height="80" alt="facebook">	</div>
+</div>
+<div data-role="page" id="page2">
+<div data-role="header">
+    <center>
+		<marquee bgcolor="#99FF66" direction="up"><h1 style="background-color:#00F;">LES PRESENTAMOS A UN SUPER AUTO DEPORTIVO</h1></marquee>
+           <p style="color:#FF0";>AUDI R-8</p>   
+    </center>  
+    <input type="button" value="regresar" onClick="history.back(-1)"/>
+   	</div>
+   	
+	<div data-role="content">
+    
+       
+	<style>
+	
+	body{
+		background-color:peru;
+	}
+	#imagen{
+		width:850px;
+		height:350px;
+	}
+	#imagen:hover{
+		transition:2.5s;
+		transform:rotate(360deg);
+	}
+	</style>
+    <body>
+    <center>
+    <img id="imagen" src="imagenes/audiR.png" alt="audiR">
+<h5>El AUDI-R8 es un automovil super deportivo de altas prestaciones producido por el fabricante aleman AUDI desde el año 2006</h5>
+        <br>
+        <p>El deportivo R8 tiene como competidores directos el FERRARI 458 italia, el LAMBORGHINI HURACAN y el PORCHE 911 TURBO.......</p>
+</center> 
+        <marquee direction="down"><h2 style="color:#C3C">DISEÑO</h2></marquee>	
+<center>
+  <p>La disposicion del motor es central trasera por primera vez en la historia de AUDI. Uno de los modelos que se uso como inspiracion a la hora de analizar en este R8 fue el Auto Union Tipo C. De esta forma, con un motor central se logra una distribucion del peso casi perfecta, con el 44% en el morro y el 56% en la cola.</p>
+  <img id="imagen" src="imagenes/diseño.png"  alt="diseño">
+  </center>
+        <br>
+        <marquee behavior="alternate"><h2 style="color:#F00">INTERIOR</h2></marquee>
+<center>
+  <p>La arquitectura del habitaculo esta orientada basicamente hacia el conductor. El volante, como culquiera deportivo moderno, es chato en su parte inferior, ya que es la unica forma de dar el lugar a las piernas. El diseño combina mucha modernidad y algunos toques retro, como se ve en la forma de los relojes.
+  El tapizado es de cuero, pero se pueden solicitar asientos especiales, desarrollados por QUATTO GMBH.Detras de los asientos existen un pequeño espacio de los 100Litros de capacidad para guardar dos bolsos o, segun los iseñadores, dos bolsas de palos de golf.</p>
+  <img id="imagen" src="imagenes/interior.png"  alt="interior">
+  </center>
+        <marquee scrollamount="30"><h2 style="color:#900">MECANICA</h2></marquee>
+        <h5>Motores de gasolina</h5>
+         <center>
+         <p>Con el v8 de 4.2 litros con cuatro valvulas por cilindro e inyeccion directa FSI, relacionado con el de los otros modelos del GRUPO VOLSWAGEN, su potencia maxima es de 420 CV a 7800 rpm, y su par motor maximo es de 430 Nm. Entre las 3500 y 7600 rpm, el par motor es superior a 385 Nm. Sin embargo este motor ya se encuentra obsoleto y ya no se ofrce para el modelo para el modelo 2016.
+         El R8 V8 acelera de o a 100 km/h en 4.2 s, y su velocidad maxima es de 301 km/h  </p>
+    <style>
+	.miniatura
+	{
+		float:right;
+		width:110px;
+		height:90px;
+		margin:5px;
+	}
+	.linea_texto
+	{
+		clear:both;
+		margin-bottom:2px;
+	}
+	</style>
+    <body>
+<marquee direction="down"><h2 style="color:#300">MULTIMEDIA....</h2></marquee>
+    <marquee>
+    <img src="imagenes/german.png" width="107" height="90" alt="german">
+    <img src="imagenes/hernan.png" width="107" height="90" alt="hernan">
+    <img src="imagenes/cama.png" width="107" height="90" alt="cama"> 
+    <img src="imagenes/libro.png" width="107" height="90" alt="libro">
+    <img src="imagenes/rana.png" width="107" height="90" alt="rana"> 
+    <img src="imagenes/leon.png" width="107" height="90" alt="leon">
+    <img src="imagenes/auditres.jpg" width="107" height="90" alt="audi">
+    <img src="imagenes/audicuatro.jpg" width="107" height="90" alt="audi">
+    <img src="imagenes/audiR.png" width="107" height="90" alt="audi">
+    </marquee>
+<object classid="clsid:166B1BCA-3F9C-11CF-8075-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/director/sw.cab#version=10,1,1,0" width="32" height="32" title="mmm">
+      <param name="src" value="music/melmas.mp3">
+      <embed src="music/Marshmello - Alone [Monstercat Official Music Video].mp3" pluginspage="http://www.adobe.com/shockwave/download/" width="132" height="132"></embed>
+</object>
+</body>
+    <body>
+    <video width="1000" height="350" controls>
+    	<source src="imagenes/audiR.mp4" type="video/mp4">
+    </video>
+    <h1>banda tierra sagrada</h1>
+   
+    </body>
+    <style>
+	#customers
+	{
+		font-family:"Trebuchet MS", Argedial, Hervetica, sans-serif;
+		width:500px;
+		border-collapse:collapse;
+	}
+	#customers td, #customers th
+	{
+		font-size:1em;
+		border:1px solid #A52A2A;
+		padding:3px 7px 2px 7px;
+	}
+	#customers th
+	{
+		font-size:1.1em;
+		text-align:left;
+		padding-top:5px;
+		padding-bottom:4px;
+		background-color:#033
+		color:#0C6;
+	}
+	#customers tr.alt td
+	{
+		color:#CF3;
+		background-color:#969;
+	}
+     </style>
+    <body>
+    <table id="customers">
+    <tr>
+    	<th></th>
+        <th></th>
+    </tr>
+    <tr>
+    <td>Empresa matriz</td>
+    <td>Grupo volkswagen</td>
+    </tr>
+    <tr class="alt">
+    <td>Fabricante</td>
+    <td>AUDI</td>
+    </tr>
+    <tr>
+    <td>Periodo</td>
+    <td>2006-Presente</td>
+    </tr>
+    <tr class="alt">
+    <td>Fabricas</td>
+    <td>Neckarsulm, Alemania</td>
+    </tr>
+    <tr>
+    <td>Predecesor</td>
+    <td>Audi Le Mans quattro</td>
+    </tr>
+    <tr class="alt">
+    <td>tipo</td>
+    <td>SuperDeportivo</td>
+    </tr>
+    <tr>
+    <td>Carroserias</td>
+    <td>Cupe dos puertas</td>
+    </tr>
+    <tr class="alt">
+    <td>Configuracion</td>
+    <td>motor central trasero
+    longitudinal, transmision manual
+    de 6 velocidades, semiautomatica
+    de 6 velocidades.</td>
+    </tr>
+    <tr>
+    <td>Largo/ancho/alto/batalla</td>
+    <td>4560/1930/1300/2650mm</td>
+    </tr>
+    <tr class="alt">
+    <td>Peso</td>
+    <td>1600kg</td>
+    </tr>
+    <tr >
+    <td>Relacionado</td>
+    <td>Lamborghini Huracan, Porche 911 GT3,
+    Mercedes-Benz SLS AMG,
+    Lamborgini Gallardo, Lamborgini Murcielago</td>
+    </tr>
+    <tr class="alt">
+    <td>Similares</td>
+    <td>Ferrari F430</td>
+    </tr>
+    </table>
+</body>       
+    </body>
+	 </div>
+     <br>
+	<div data-role="footer">
+		<marquee bgcolor="#00FF33" direction="down"><h4>MESES Y NI INTERESES</h4></marquee>
+    </div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+    <center>
+		<marquee bgcolor="gray" direction="up"><h1>NISSAN</h1></marquee>
+        <h3 style="color:#6FF">Un SuperAuto que
+        Escupe El Aire</h3>
+    </center>  
+    <input type="button" value="regresar" onClick="history.back(-1)"/>  
+	</div>
+	<div data-role="content">
+     <embed src="F:\4 parcial\SABI\cala.mp3">
+    <center>
+    <img id="imagen" src="imagenes/nissan.png"  alt="audi">
+</center>
+     <br> 	
+	   <marquee bgcolor="#FF0000" width="300" direction="down"><h2 style="color:#FF0">DISEÑO EXTERIOR</h2></marquee>
+        <center>
+        	<p>En lugar de ser diseño para satisfacer las demandas de la aerodinamica, el GT-R esculpe el aire de acuerdo con sus necesidades-convirtiendose tanto en una fuerza de la naturaleza como en una fuerza con la que puede contar.</p>
+           <img id="imagen" src="imagenes/carros.png"  alt="audi">
+</center> 
+        <marquee bgcolor="#000066" width="500" direction="up"><h2 style="color:#9CF">FASCIA TRASERA REDISEÑADA</h2></marquee>
+        <center>
+        <p>La fascia trasera del GT-R ha sido extendida hacia los lados para que el aire se aleje de la parte posterior de la defensa mucho mas rapido, esto ayuda a eliminar los gases calientes, lo cual a su vez permite enfriar el escape.......</p>
+        </center>   
+        <marquee bgcolor="#330000" behavior="alternate"><h2 style="color:#9F9">FALDONES LATERALES Y PILAR C REMODELADOS</h2></marquee>
+        <center>
+        <p>El rediño de los faldones laterales del GT-R ayuda a prevenir que el flujo de aire se vaya hacia abajo del vehiculo. se ha refinado el area aldedor del pilar C para reducir la turbulencia y ayudar a acelerar el flujo de aire hacia la parte trasera de la carroceria.
+        </center>	
+        <marquee bgcolor="#990000" scrolldelay="220"><h2 style="color:#C93">FRENTE REDISEÑADO</h2></marquee>
+        <center>
+        <p>El aumento de las aperturas de la parrilla permite el enfriamento de componentes clave. La remodelacion de la fascia delantera ayuda a dirigir el aire hacia el interior de los guardabarros delanteros, lo cual reduce el arrastre.
+        </center>
+        <marquee bgcolor="#FF0066" direction="up"><h2 style="color:#6F0">DISEÑO ERGONOMICO</h2></marquee>
+        <center>
+        <p>Al mejorar la forma en que obtienes la informacion, puedes concentrarte en lo mas importante: disfrutar plenamente el recorrido.</p>
+         <img id="imagen" src="imagenes/camion.png"  alt="audi">
+        </center>
+        <marquee bgcolor="#FF3300" direction="down"><h2 style="color:#CF6">El rostro del desempeño</h2></marquee>
+        <center>
+        <p>La combinacion usa las ruedas dentadas que engranan como diseño. El tacometro esta ubicado en el centro, con el indicador de cambios de gran tamaño en la parte superior derecha, asistiendo al conductor con una lectura inmediata cuando maneja en el circuito.</p>
+      <img src="imagenes/german.png" width="107" height="90" alt="german">
+        </center>
+        <style>
+	.miniatura
+	{
+		float:right;
+		width:110px;
+		height:90px;
+		margin:5px;
+	}
+	.linea_texto
+	{
+		clear:both;
+		margin-bottom:2px;
+	}
+	</style>
+    <body>
+    <marquee direction="up"><h2 style="color:#003">MULTIMEDIA....</h2></marquee>
+    <marquee><img src="imagenes/calaca.png" width="107" height="90" alt="german">
+    <img src="imagenes/londres.png" width="107" height="90" alt="german">
+   <img src="imagenes/mochila.png" width="107" height="90" alt="german">
+    <img src="imagenes/rines.png" width="107" height="90" alt="german">
+    <img src="imagenes/sueldo.png" width="107" height="90" alt="german">
+    <img src="imagenes/tomate.png" width="107" height="90" alt="german">
+   <img src="imagenes/camita.png" width="107" height="90" alt="german">
+    <img src="imagenes/turbo.jpg" width="107" height="90" alt="german"></marquee>
+    <body>
+    	<video width="1000" height="350" controls>
+    	<source src="celularN.mp4" type="video/mp4">
+        </video>
+    </body>
+    </body>
+      <style>
+	#customers
+	{
+		font-family:"Trebuchet MS", Argedial, Hervetica, sans-serif;
+		width:500px;
+		border-collapse:collapse;
+	}
+	#customers td, #customers th
+	{
+		font-size:1em;
+		border:1px solid #A52A2A;
+		padding:3px 7px 2px 7px;
+	}
+	#customers th
+	{
+		font-size:1.1em;
+		text-align:left;
+		padding-top:5px;
+		padding-bottom:4px;
+		background-color:#033
+		color:#0C6;
+	}
+	#customers tr.alt td
+	{
+		color:#CF3;
+		background-color:#969;
+	}
+    </style>
+   <body>
+   <table id="customers">
+   <tr>
+   		<th><img src="imagenes/adulto.png" width="100" height="80" alt="german"></th>
+        <th><img src="imagenes/descarga.jpg" width="100" height="80" alt="german"></th>
+        <th><img src="imagenes/nissan.png" width="100" height="80" alt="german"></th>
+   </tr>
+   <tr>
+   <td>FICHA TECNICA</td>
+   <td>BMW M4 GTS</td>
+   <td>NISSAN GT-R</td>
+   </tr>
+   <tr class="alt">
+   <td>Motor y cilindrada</td>
+   <td>3.0 L6 delantero</td>
+   <td>3.8 v6 a 60° delantero</td>
+   </tr>
+   <tr>
+   <td>Aspiracion</td>
+   <td>Biturbo</td>
+   <td>Biturbo</td>
+   </tr>
+   <tr class="alt">
+   <td>Potencia</td>
+   <td>500 cv @6250rpm</td>
+   <td>600 cv @6800rpm</td>
+   </tr>
+   <tr>
+   <td>Potencia especifica</td>
+   <td>167 cv/litro</td>
+   <td>652 Nm @ 2800-5800</td>
+   </tr>
+   <tr class="alt">
+   <td>Cambio</td>
+   <td>7 Velocidades</td>
+   <td>6 velocidades</td>
+   </tr>
+   <tr>
+   <td>Traccion</td>
+   <td>Tracera</td>
+   <td>Integral</td>
+   </tr>
+   <tr class="alt">
+   <td>Frenos del</td>
+   <td>6 Pistones, 400mm. Carbono</td>
+   <td>6 Pistones, 390 mm. Acero</td>
+   </tr>
+   <tr>
+   <td>Rueda delantera</td>
+   <td>265/35 ZR 19</td>
+   <td>255/40 ZR 20*</td>
+   </tr>
+   <tr class="alt">
+   <td>Rueda tracera</td>
+   <td>285/30 ZR 20</td>
+   <td>285/35 ZR 20</td>
+   </tr>
+   <tr>
+   <td>Peso</td>
+   <td>1585 Kg</td>
+   <td>1720 Kg</td>
+   </tr>
+   <tr class="alt">
+   <td>Relacion Peso/Potencia</td>
+   <td>3.17 Kg/cv</td>
+   <td>2.86 Kg/cv</td>
+   </tr>
+   <tr>
+   <td>0-100Km/h</td>
+   <td>3.8 Seg</td>
+   <td>2.5Seg</td>
+   </tr>
+   <tr class="alt">
+   <td>V max</td>
+   <td>350Km/h</td>
+   <td>315Km/h</td>
+   </tr>
+   </table>
+	</div>
+	<div data-role="footer">
+		<marquee bgcolor="green" scrolldelay="200"><h4 style="color:blue">LLAMANOS 22-31-08-51-06</h4></marquee>
+        
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+		<marquee bgcolor="#999999" behavior="alternate"><h1 style="color:#603">CORVETTE GRAND SPORT 2017</h1></marquee>
+        <input type="button" value="regresar" onClick="history.back(-1)"/>
+	</div>
+    
+    <div data-role="content">	
+     <embed src="F:\4 parcial\SABI\tala.mp3">
+    <center>
+		 <img id="imagen" src="imagenes/sport.png"  alt="audi">	
+    </center>
+     <marquee bgcolor="#000033" width="800" direction="down"><h2 style="color:#09C">EL NUEVO CORVETTE GRAND SPORT 2017</h2></marquee>
+    <br>
+    <center>
+    <p>El ultimo miembro de la gama de corvette combina la potencia del legendario motor LT1 de 6.2L con un chasis ligero, creado para las carreras, para proveer manejo emocionante.</p>
+     <img id="imagen" src="imagenes/azul.png"  alt="audi">
+    </center>    
+    <marquee bgcolor="#990000" width="300" direction="up"><h2 style="color:#F00">DEPORTIVOS</h2></marquee>
+    <center>
+    <p>~El gran sport cuenta con un motor LT1 v8 de 6.2L, capaz de producir 460 caballos de fuerza y 465 lb-ft de torque.</p>
+    <p>~El sistema de lubricacion con carter seco lleva el aceite a todos los rincones.</p>
+    <p>~Elige entre una transmision manual de 7 velocidades o una automatica de 8 velocidades con paleta de cambios.</p>
+    <p>~El Magnetic Ride Control se ajusta a las condiciones del camino a razon de mil veces por segundo</p> 
+     <img id="imagen" src="imagenes/deportivo.png"  alt="audi">
+    </center>
+    <marquee bgcolor="#003300" width="300" direction="down"><h2 style="color:#FF0">DISEÑO</h2></marquee>
+    <center>
+    <p>~Los guardafangos mas anchos se combinan con rines y neumaticos mas anchos para una portura confiada y agresiva.</p>
+    <p>~Disponible en coupe y convertible.</p>
+    <p>~Fuerza descendente aerodinamica increible gracias a ingeniosos componentes para flujo de aire  y enfriamento.</p>
+    <p>El paquete Heritage tiene graficos de marcas hash en los paragolpes en seis colores y detalles interiores exclusivos.</p>
+     <img id="imagen" src="imagenes/lujo.png"  alt="audi">
+    </center>
+    <marquee bgcolor="#330000" width="300" height="30" direction="up"><h1>SEGURIDAD</h1></marquee>
+    <center>
+    <p>~El sistema de manejo activo a mantener el Stingray bajo control.</p>
+    <p>~Frenos antibloqueo en las 4 ruedas</p>
+    <p>~Las bolsas de aire en el asiento ala altura del torax te protegen en caso de choque.</p>
+    <p>~La respuesta autoematica en caso de choque de OnStar envia ayuda de emergencia a tu ubicacion segun el GPS e incluye 6 meses de servicio.</p>
+    </center>
+    <style>
+	.miniatura
+	{
+		float:right;
+		width:110px;
+		height:90px;
+		margin:5px;
+	}
+	.linea_texto
+	{
+		clear:both;
+		margin-bottom:2px;
+	}
+	</style>
+    <body>
+    <marquee bgcolor="#663300" width="450" direction="down"><h2 style="color:#606">MULTIMEDIA....</h2></marquee>
+    <marquee><img src="imagenes/celular.png" width="107" height="90" alt="german"> 
+   <img src="imagenes/saludos.png" width="107" height="90" alt="german"> 
+    <img src="imagenes/salu.png" width="107" height="90" alt="german"> 
+    <img src="imagenes/chu.png" width="107" height="90" alt="german"> 
+    <img src="imagenes/cho.png" width="107" height="90" alt="german"> 
+    <img src="imagenes/chi.png" width="107" height="90" alt="german"> 
+   <img src="imagenes/che.png" width="107" height="90" alt="german"> 
+   <img src="imagenes/cha.png" width="107" height="90" alt="german"> </marquee>
+    </body>
+    
+	</div>
+	<div data-role="footer">
+		<h4>MEJOR COMO NOSOTROS NO HAY</h4>
+        
+	</div>
+</div>
+<div data-role="page" id="page5">
+	<div data-role="header">
+    <center>
+		<marquee bgcolor="#996600" scrolldelay="200"><h1 style="color:#3F6">CUATRO MOTORES 
+        UN ALMA</h1></marquee>
+        </center>
+        <input type="button" value="regresar" onClick="history.back(-1)"/>
+	</div>
+	<div data-role="content">
+     <embed src="F:\4 parcial\SABI\boton.mp3">
+    <center>	
+    <marquee bgcolor="#CC0000" width="500" direction="down"><h1>FORD MUSTANG 2017</h1></marquee>
+	 <img id="imagen" src="imagenes/pistola.png"  alt="audi">
+     <p>Ajustate el cinturon de seguridad. Cada motor produce al menos 300 caballos de fuerza. El motor V6 de 3.7L ofrece hasta 300 c.f. y 280 ib-pie</p>
+     <h5>~Probado con conmustible de 93 octanos...</h5>
+     <img id="imagen" src="imagenes/motroM.png"  alt="audi">
+     </center>
+     <marquee bgcolor="#999900" width="400" direction="up"><h2>EcoBoost de 2.3L</h2></marquee>
+     <center>
+     <p>El motor EcoBoost 2.3L brinda 310 caballos de fuerza* y 320 ib-pie de torsion.* Un turbocargador de doble deplazamiento</p>
+     <img id="imagen" src="imagenes/boton.png"  alt="audi">
+     </center>
+     <marquee bgcolor="#660000" direction="down"<h2>GT DE 5.0L</h2></marquee>
+     <center>
+     <p>Desde un sonido gutural y profundo al ralenti, hasta la gran potencia de traccion en la aceleracion....</p>
+     <img id="imagen" src="imagenes/carton.png"  alt="audi">
+     </center>
+     <marquee width="200" direction="down"><h2>v6 3.7L</h2></marquee>
+     <center>
+     <P>El motor v6 de 3.7L tiene sincronizacion variable e independiente del arbol de levas doble (Ti-VCT) y produce 300c.f y 280 ib-pie de torsion.</P>
+     <img id="imagen" src="imagenes/barril.png"  alt="audi">
+     </center>
+     <marquee bgcolor="#9900CC" width="500" behavior="alternate"><h2 style="color:#006">DISEÑO DE EXTERIOR</h2></marquee>
+     <center>
+     <p>Con una aparencia elegante, deportiva y aerodinamica, el mustang presenta un estilo iconico propio.</p>
+     <img id="imagen" src="imagenes/mustan.jpg"  alt="audi">
+     </center>
+     <marquee bgcolor="#3366FF" scrollamount="40"><h2 style="color:#300"><h2>LA CABINA</h2></marquee>
+     <center>
+     <p>El asiento del conductor se puede colocar en posicion baja y deportiva para conducir comodamente durante viajes largos.</p>
+     </center>
+      <style>
+	.miniatura
+	{
+		float:right;
+		width:110px;
+		height:90px;
+		margin:5px;
+	}
+	.linea_texto
+	{
+		clear:both;
+		margin-bottom:2px;
+	}
+	</style>
+    <body>
+    <h2 style="color:#3CF">MULTIMEDIA....</h2>
+     <marquee><img src="imagenes/celular.png" width="107" height="90" alt="german"> 
+   <img src="imagenes/saludos.png" width="107" height="90" alt="german"> 
+    <img src="imagenes/salu.png" width="107" height="90" alt="german"> 
+    <img src="imagenes/chu.png" width="107" height="90" alt="german"> 
+    <img src="imagenes/cho.png" width="107" height="90" alt="german"> 
+    <img src="imagenes/chi.png" width="107" height="90" alt="german"> 
+   <img src="imagenes/che.png" width="107" height="90" alt="german"> 
+   <img src="imagenes/cha.png" width="107" height="90" alt="german"> </marquee>
+    </body>
+  
+    
+	</div>
+	<div data-role="footer">
+		<h4 style="color:#0F0">VEN Y DISFRUTA DE NUESTROS MEJORES PRECIOS</h4>
+        <body>
+       </body>
+        
+	</div>
+</div>
+<div data-role="page" id="page6">
+	<div data-role="header">
+        <center>
+		<marquee bgcolor="#666666" direction="down"><h1>EL MAS POTENTE DE LOS EE.UU</h1></marquee>
+        </center>
+        <input type="button" value="regresar" onClick="history.back(-1)"/>
+	</div>
+	<div data-role="content">	
+     <embed src="F:\4 parcial\SABI\vic.mp3">
+    <center>
+		<img id="imagen" src="imagenes/carrosD.png"  alt="audi">
+    </center>
+    <marquee bgcolor="#003333" direction="up"Z<h2 style="color:#C30">APARENCIA MODERNA <br>
+             ACTITUD CLASICA</h2></marquee>
+             <center>
+             <p>Todos te diras no te metas con un icono. Pero Dodge nuncas escucho a "todas las personas" del mundo. Entoces, tomadoseste modelode lata potencia, el DODGE CHALLENGER, y con el verdadero diseño moderno de dodge, lo hicimos aun mejor.....</p>
+             <img id="imagen" src="imagenes/propetario.jpg"  alt="audi">
+             </center>
+             <marquee bgcolor="#990066" behavior="alternate"><h2 style="color:#CF0">SEGURIDAD</h2></marquee>
+             <h5>proteccion del pasajero</h5>
+             <center>
+             <p>Nadie planea participar en un accidente. Pero puedes planear con anticipacion escoger un vehiculo diseñado para mantenerte seguro cuando ocurre sucesos inesperados.</p>
+             <img id="imagen" src="imagenes/seguridad.png"  alt="audi">
+             </center>		
+             <marquee bgcolor="#996699" behavior="alternate"><h2 style="color:#903">FAROS DE LUZ ALTA AUTOMATICOS</h2></marquee>
+             <center>
+             <p>El sistema Automatic High-Beam control de los faros delanteros dispoble cambia......</p>
+             </center>
+             <marquee width="400" direction="down"><h2 style="color:#306">CONTROL EN CARRETERA</h2></marquee>
+             <center>
+             <P>De eso se trata. La famosa herencia. La legendaria aparencia. optimizao, modernizado y hecho real.</P>
+             <img id="imagen" src="imagenes/super.png"  alt="audi">
+             </center>
+             <marquee bgcolor="#00FF00" direction="up"><h2 style="color:#9C0">TRACCION AVANZADA EN TODAS LAS RUEDAS</h2></marquee>
+             <center>
+             <p>Domina cualquier terreno que se te interponga. Con la traccion en todas las ruedas(AWD) disponible, obtienes un control mas firme en casi cualquier situacion de manejo...</p>
+             <img id="imagen" src="imagenes/dedo.png"  alt="audi">
+             </center>
+              <style>
+	.miniatura
+	{
+		float:right;
+		width:110px;
+		height:90px;
+		margin:5px;
+	}
+	.linea_texto
+	{
+		clear:both;
+		margin-bottom:2px;
+	}
+	</style>
+    <body>
+    <marquee bgcolor="#990000" direction="down"><h2 style="color:#063">MULTIMEDIA....</h2></marquee>
+    <marquee><img src="imagenes/celular.png" width="107" height="90" alt="german"> 
+   <img src="imagenes/saludos.png" width="107" height="90" alt="german"> 
+    <img src="imagenes/salu.png" width="107" height="90" alt="german"> 
+    <img src="imagenes/chu.png" width="107" height="90" alt="german"> 
+    <img src="imagenes/cho.png" width="107" height="90" alt="german"> 
+    <img src="imagenes/chi.png" width="107" height="90" alt="german"> 
+   <img src="imagenes/che.png" width="107" height="90" alt="german"> 
+   <img src="imagenes/cha.png" width="107" height="90" alt="german"> </marquee>
+    </body>
+  
+    
+	</div>
+	<div data-role="footer">
+		<h4 style="color:#0C0">VEN Y APROVECHA TENEMOS LOS MEJORES PRECIO   
+     </h4>
+           
+</div>
+</body>
+</html>
